@@ -11,7 +11,7 @@ public class DemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome to Jenkins CI/CD Demo ";
+        return "Welcome to Jenkins CI/CD Demo - New Version SCM";
     }
 
     public static void main(String[] args) {
